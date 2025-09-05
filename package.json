@@ -1,0 +1,15 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "just for fun",
+  "license": "ISC",
+  "author": "Hasib",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "hasib": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
