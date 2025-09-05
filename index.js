@@ -9,6 +9,14 @@ app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
 
+app.get("/about", (req, res) => {
+  res.send("about, World!");
+});
+
+app.get("/contact", (req, res) => {
+  res.send("contact, World!");
+});
+
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on http://localhost:${process.env.PORT}`);
 });
